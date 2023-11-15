@@ -23,5 +23,29 @@
         {% block content %}
         {% endblock %}
     </div>
+    <footer class="py-6 px-6 flex justify-between bg-gray-800"> 
+        <div class="w-2/3 pr-10">
+            <h3 class="mb-5 font-semibold text-gray-400">About</h3>
+            <p class="text-lg text-gray-500">Welcome to Geo Trader, your ultimate marketplace for rocks, minerals, and fossils! 
+            Immerse yourself in the captivating world of Earth's treasures through our diverse and carefully curated listings. 
+            Whether you're a collector, a geology enthusiast, or someone looking for a unique piece of nature's art, 
+            you'll find something special here. Explore stunning crystals and ancient fossils that tell the Earth's story. 
+            What makes us unique? We're not just a destination to buy; we're a community where you can also sell your own rocks, 
+            minerals, or fossils. Join us in celebrating the extraordinary beauty and history found in every listing. 
+            Start or expand your collection with pieces that resonate with the Earth's rich geological tapestry, 
+            all within our vibrant marketplace.</p>
+        </div>
+
+        <div class="w-1/3">
+            <h3 class="mb-5 font-semibold text-gray-400">Menu</h3>
+            <ul class="space-y-2">
+                <li><a href="#" class="text-lg text-teal-500 hover:text-teal-700">About</a></li>
+                <li><a href="{% url 'contact' %}" class="text-lg text-teal-500 hover:text-teal-700">Contact</a></li>
+                <li><a href="#" class="text-lg text-teal-500 hover:text-teal-700">Privacy Policy</a></li>
+                <li><a href="#" class="text-lg text-teal-500 hover:text-teal-700">Terms of Service</a></li>
+            </ul>
+
+        </div>
+    </footer>
 </body>
 </html>
